@@ -13,7 +13,7 @@ eksctl create fargateprofile \
 ## Deploy the deployment, service and Ingress
 
 ```
-kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/examples/2048/2048_full.yaml
+kubectl apply -f https://raw.githubusercontent.com/jyothiram266/devops-projects/master/Deployment-of-2048-Game-on-EKS-Cluster/2048-Game-deployment.yaml?token=GHSAT0AAAAAACPHENP6UZAJWFRS7UVUNNH4ZTUNVIA
 ```
 
 
