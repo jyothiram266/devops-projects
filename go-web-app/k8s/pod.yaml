@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: go-app-pod
+  labels:
+    app: go-app
+spec:
+  containers:
+  - name: go-app-container
+    image: your-dockerhub-username/my-go-app:latest
+    ports:
+    - containerPort: 8080
