@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: go-app-container
-    image: jyothiram266/go-app
+    image: jyothiram266/go-app:{{ .Values.image.tag }}
     ports:
     - containerPort: 8080
